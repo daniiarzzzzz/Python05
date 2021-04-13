@@ -1,0 +1,16 @@
+p {
+    color: blue;
+    text-align: center;
+    padding: 20px;
+    size: 600px;
+    font-family: "Bookman Old Style";
+}
+#link {
+    color: red;
+}
+.abc{
+    color: blueviolet;
+}
+body {
+    background-color: seashell;
+}

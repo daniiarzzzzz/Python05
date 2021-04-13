@@ -33,7 +33,7 @@ print("Sultans " + sultan_house.walls)
 print("Sultans " + sultan_house.rooftop)
 print("Sultans " + sultan_house.floor)
 print("Sultans " + sultan_house.foundation)
-
+sultan_house.walls = "pink"
 daniiars_house.paint_walls("green")
 sultan_house.paint_walls("orage")
 print()

@@ -6,6 +6,9 @@ class Human:
         self.weight = weight
 
     def run(self):
+        print("Run method")
+        if self.height > 170:
+            return self.height / 5
         return self.height / 10
 
     def eat(self):

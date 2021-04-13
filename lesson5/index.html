@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+<h1 class="abc">HTML</h1> <h2>CSS</h2> <h3>JS</h3>
+<p id="link">Github: <a href="https://github.com/">Link</a></p>
+<a href="https://google.com"><img id="img" src="https://4.bp.blogspot.com/--IWVg2byUho/WN97i2CsENI/AAAAAAAACLI/KBwGxwt-2zwUiUyvC9f-x63uypeKAZfggCLcB/s1600/HTML_VS_CSS.jpg"
+     alt=""></a>
+<p class="abc">Hello World!</p>
+<p class="abc">Heloo</p>
+<p >white lives matter</p>
+<script type="text/javascript">
+    const body = document.getElementById('img');
+    let deg = 720;
+    setInterval(() => {
+        deg = 180;
+        body.style.transition = "all 100s"
+        body.style.transform = `rotateX(${deg}deg)`
+    }, 100)
+</script>
+</body>
+</html>
